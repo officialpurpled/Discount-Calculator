@@ -10,7 +10,32 @@
 
 <body>
   <div class="container">
+    <div class="calculator">
+      <div class="header">
+        Discount Calculator
+      </div>
+      <form>
+        <label for="bill" class="input-group">
+          <p>Bill Amount</p>
+          <input type="number" id="bill">
+        </label>
+        <label for="percentage" class="input-group">
+          <p>Discount Percentage</p>
+          <input type="number" id="percentage">
+        </label>
 
+        <button type="submit" class="calculate">Calculate Discount</button>
+      </form>
+
+      <div class="result-box">
+        <div class="result-discount">
+          <p>Your Discount will appear here</p>
+        </div>
+        <div class="result-total">
+          <p>Your Total will appear here</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
